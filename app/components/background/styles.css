@@ -1,0 +1,489 @@
+.screen-container {
+    display: flex;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    z-index: -1;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-color: #161616;
+}
+
+.bubbles-container {
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    min-width: 2000px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.bubble-container {
+    height: 100vh;
+    background-color: rgba(255, 191, 0, 0.03);
+    position: absolute;
+}
+
+.bubble-container1 {
+    width: 5px;
+
+
+}
+
+.bubble-container2 {
+    width: 1px;
+    left: 60px;
+}
+
+.bubble-container3 {
+    width: 6px;
+    left: 260px;
+}
+
+.bubble-container4 {
+    width: 2px;
+    left: 290px;
+}
+
+.bubble-container5 {
+    width: 2px;
+    left: 430px;
+}
+
+.bubble-container6 {
+    width: 5px;
+    left: 620px;
+}
+
+.bubble-container7 {
+    width: 2px;
+    left: 700px;
+}
+
+.bubble-container8 {
+    width: 2px;
+    left: 900px;
+}
+
+.bubble-container9 {
+    width: 2px;
+    left: 1155px;
+}
+
+.bubble-container10 {
+    width: 1px;
+    left: 1305px;
+}
+
+.bubble-container11 {
+    width: 6px;
+    left: 1328px;
+}
+
+.bubble-container12 {
+    width: 1px;
+    left: 1390px;
+}
+
+.bubble-container13 {
+    width: 2px;
+    left: 1455px;
+}
+
+.bubble-container14 {
+    width: 6px;
+    left: 1655px;
+}
+
+.bubble-container15 {
+    width: 2px;
+    left: 1735px;
+}
+
+.bubble-container16 {
+    width: 1px;
+    left: 1788px;
+}
+
+.bubble-container17 {
+    width: 5px;
+    left: 1900px;
+}
+
+.bubble {
+    position: absolute;
+    animation: moveBubbles infinite;
+    animation-timing-function: linear;
+    background-color: #F6B846;
+
+
+}
+
+.bubble-reverse {
+    position: absolute;
+    animation: moveBubblesReverse infinite;
+    animation-timing-function: linear;
+    background-color: #F6B846;
+
+
+}
+
+.bubble-reverse::before {
+    content: '';
+    position: absolute;
+    background-color: #F6B846;
+
+}
+
+.bubble-reverse::after {
+    content: '';
+    position: absolute;
+    background-color: #F6B846;
+}
+
+.bubble::before {
+    content: '';
+    position: absolute;
+    background-color: #F6B846;
+
+}
+
+.bubble::after {
+    content: '';
+    position: absolute;
+    background-color: #F6B846;
+}
+
+.bubble1 {
+    width: 5px;
+    height: 10px;
+    /* Example height */
+}
+
+.bubble1::before {
+    top: -300px;
+    left: 0;
+    width: 5px;
+    height: 20px;
+}
+
+.bubble1::after {
+    top: -480px;
+    left: 0;
+    width: 5px;
+    height: 80px;
+}
+
+.bubble2 {
+    width: 1px;
+    height: 10px;
+
+}
+
+.bubble2::before {
+    width: 1px;
+    height: 80px;
+    top: -300px
+}
+
+
+.bubble3 {
+    width: 5px;
+    height: 20px;
+    /* Example height */
+}
+
+.bubble3::before {
+    width: 5px;
+    height: 50px;
+    top: -400px
+}
+
+.bubble3::after {
+    width: 5px;
+    height: 100px;
+    top: -800px
+}
+
+.bubble4 {
+    width: 2px;
+    height: 100px;
+
+}
+
+.bubble4::before {
+    width: 2px;
+    height: 50px;
+    top: -300px
+}
+
+.bubble4::after {
+    width: 2px;
+    height: 15px;
+    top: -500px
+}
+
+.bubble5 {
+    width: 2px;
+    height: 15px;
+
+}
+
+.bubble5::before {
+    width: 2px;
+    height: 60px;
+    top: -500px
+}
+
+.bubble6 {
+    width: 5px;
+    height: 80px;
+
+}
+
+.bubble6::before {
+    width: 5px;
+    height: 30px;
+    top: -200px;
+}
+
+.bubble6::after {
+    width: 5px;
+    height: 15px;
+    top: -500px;
+}
+
+.bubble7 {
+    width: 2px;
+    height: 15px;
+    /* Example height */
+}
+
+.bubble7::before {
+    width: 2px;
+    height: 30px;
+    top: -100px;
+}
+
+.bubble7::after {
+    width: 2px;
+    height: 60px;
+    top: -300px
+}
+
+.bubble8 {
+    width: 2px;
+    height: 15px;
+    /* Example height */
+}
+
+.bubble8::before {
+    width: 2px;
+    height: 60px;
+    top: -200px
+}
+
+.bubble8::after {
+    width: 2px;
+    height: 30px;
+    top: -500px
+}
+
+.bubble9 {
+    width: 2px;
+    height: 15px;
+    /* Example height */
+}
+
+.bubble9::before {
+    width: 2px;
+    height: 30px;
+    top: -150px
+}
+
+.bubble9::after {
+    width: 2px;
+    height: 45px;
+    top: -300px
+}
+
+.bubble10 {
+    width: 1px;
+    height: 15px;
+    /* Example height */
+}
+
+.bubble10::before {
+    width: 1px;
+    height: 50px;
+    top: -250px
+}
+
+.bubble10::after {
+    width: 1px;
+    height: 75px;
+    top: -500px
+}
+
+.bubble11 {
+    width: 6px;
+    height: 50px;
+    /* Example height */
+}
+
+.bubble11::before {
+    width: 6px;
+    height: 60px;
+    top: -250px
+}
+
+.bubble11::after {
+    width: 6px;
+    height: 75px;
+    top: -500px
+}
+
+.bubble12 {
+    width: 1px;
+    height: 10px;
+    /* Example height */
+}
+
+.bubble12::before {
+    width: 1px;
+    height: 40px;
+    top: -200px
+}
+
+.bubble12::after {
+    width: 1px;
+    height: 85px;
+    top: -500px
+}
+
+.bubble13 {
+    width: 1px;
+    height: 15px;
+    /* Example height */
+}
+
+.bubble13::before {
+    width: 1px;
+    height: 60px;
+    top: -400px
+}
+
+/* .bubble13::after {
+    width: 1px;
+    height: 75px;
+    top: -500px
+} */
+
+.bubble14 {
+    width: 6px;
+    height: 6px;
+    /* Example height */
+}
+
+.bubble14::before {
+    width: 6px;
+    height: 30px;
+    top: -250px
+}
+
+.bubble14::after {
+    width: 6px;
+    height: 75px;
+    top: -700px
+}
+
+.bubble15 {
+    width: 2px;
+    height: 15px;
+    /* Example height */
+}
+
+.bubble15::before {
+    width: 2px;
+    height: 80px;
+    top: -100px
+}
+
+.bubble15::after {
+    width: 2px;
+    height: 40px;
+    top: -700px
+}
+
+.bubble16 {
+    width: 1px;
+    height: 10px;
+    /* Example height */
+}
+
+
+
+.bubble16::after {
+    width: 2px;
+    height: 40px;
+    top: -800px
+}
+
+.bubble17 {
+    width: 5px;
+    height: 15px;
+    /* Example height */
+}
+
+.bubble17::after {
+    width: 5px;
+    height: 40px;
+    top: -800px
+}
+
+.bubble17::before {
+    width: 5px;
+    height: 50px;
+    top: -300px
+}
+
+.bubble18 {
+    width: 5px;
+    height: 15px;
+    /* Example height */
+}
+
+.bubble18::after {
+    width: 2px;
+    height: 40px;
+    top: -800px
+}
+
+.bubble18::after {
+    width: 2px;
+    height: 20px;
+    top: -400px
+}
+
+
+@keyframes moveBubbles {
+    0% {
+        transform: translateY(-50vh);
+    }
+
+    100% {
+        transform: translateY(150vh);
+    }
+}
+
+@keyframes moveBubblesReverse {
+    0% {
+        transform: translateY(150vh);
+    }
+
+    100% {
+        transform: translateY(-50vh)
+    }
+}
