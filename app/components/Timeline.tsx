@@ -2,14 +2,7 @@ import React from "react";
 import Title from "./Title";
 import { title } from "process";
 import IconTitle from "./IconTitle";
-
-interface Event {
-  id: number;
-  period: string;
-  title: string;
-  place: string;
-  body: string;
-}
+import { Event } from "../types";
 
 interface PropTypes {
   title: string;

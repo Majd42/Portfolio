@@ -2,15 +2,10 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { LiaAnkhSolid, LiaLinkSolid } from "react-icons/lia";
+import { project } from "../types";
 
 interface Proptypes {
-  project: {
-    id: number;
-    image: string;
-    title: string;
-    tech: string;
-    link: string;
-  };
+  project: project;
 }
 
 const Project = ({ project }: Proptypes) => {

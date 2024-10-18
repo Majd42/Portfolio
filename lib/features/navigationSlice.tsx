@@ -1,6 +1,5 @@
+import { Pages } from "@/app/types";
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
-
-type Pages = "About" | "Resume" | "Works" | "Contact";
 
 interface InitialStateTypes {
   navigating: boolean;

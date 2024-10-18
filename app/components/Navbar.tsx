@@ -8,12 +8,7 @@ import { BiMessage } from "react-icons/bi";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaNewspaper } from "react-icons/fa6";
 import { IoPersonOutline } from "react-icons/io5";
-
-interface NavItemType {
-  name: string;
-  icon: JSX.Element;
-  href: string;
-}
+import { NavItemType } from "../types";
 
 const navItems: NavItemType[] = [
   { name: "About", icon: <IoPersonOutline size={24} />, href: "/#about" },

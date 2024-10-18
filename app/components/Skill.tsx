@@ -1,13 +1,10 @@
 import React from "react";
 import PercentageCircle from "./PercentageCircle";
 import ProgressBar from "./ProgressBar";
+import { ISkill } from "../types";
 
 interface PropTypes {
-  skill: {
-    id: number;
-    name: string;
-    percentage: number;
-  };
+  skill: ISkill;
   circle?: boolean;
 }
 
