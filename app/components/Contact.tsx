@@ -40,8 +40,8 @@ const Contact = () => {
         <p className="text-sm text-disabled">
           I&apos;d love to hear from you! If you have new ideas or projects
           you&apos;d like to discuss, feel free to reach out. Whether you have a
-          question, need advice, or just want to chat, I'm here to help. Let's
-          bring your vision to life together!
+          question, need advice, or just want to chat, I&apos;m here to help.
+          Let&apos;s bring your vision to life together!
         </p>
 
         <div className="flex flex-col gap-3 my-10">

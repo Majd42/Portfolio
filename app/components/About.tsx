@@ -6,7 +6,6 @@ import Service from "./Service";
 import { SiNextdotjs, SiNestjs } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
 import { BsDatabase } from "react-icons/bs";
-import { useAppSelector } from "@/lib/hooks";
 
 const About = () => {
   const personalInfo = [
