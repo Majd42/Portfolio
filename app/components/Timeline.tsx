@@ -1,6 +1,5 @@
 import React from "react";
-import Title from "./Title";
-import { title } from "process";
+
 import IconTitle from "./IconTitle";
 import { Event } from "../types";
 

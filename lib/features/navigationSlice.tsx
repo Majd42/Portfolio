@@ -18,7 +18,8 @@ const navigationSlice = createSlice({
   initialState,
   reducers: {
     navigate(state, action: PayloadAction<Pages>) {
-      (state.navigating = true), (state.navigateTo = action.payload);
+      state.navigating = true;
+      state.navigateTo = action.payload;
     },
     finishNavigation(state) {
       state.currentPage = state.navigateTo;

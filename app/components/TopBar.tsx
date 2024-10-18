@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import { ReactTyped } from "react-typed";
+
 import AppTypedText from "./AppTypedText";
 
 const TopBar = () => {

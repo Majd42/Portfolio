@@ -7,7 +7,6 @@ import Resume from "./Resume";
 import Works from "./Works";
 import Contact from "./Contact";
 import { useAppSelector, useWindowWidth } from "@/lib/hooks";
-import { useRouter } from "next/navigation";
 
 const TabsContainer = () => {
   const useSelector = useAppSelector;

@@ -1,14 +1,14 @@
 "use client";
 import { finishNavigation, navigate } from "@/lib/features/navigationSlice";
 import { useAppDispatch, useAppSelector, useWindowWidth } from "@/lib/hooks";
-import Link from "next/link";
+
 import { useRouter } from "next/navigation";
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { BiMessage } from "react-icons/bi";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaNewspaper } from "react-icons/fa6";
 import { IoPersonOutline } from "react-icons/io5";
-import { NavItemType } from "../types";
+import { NavItemType, Pages } from "../types";
 
 const navItems: NavItemType[] = [
   { name: "About", icon: <IoPersonOutline size={24} />, href: "/#about" },
@@ -30,8 +30,6 @@ interface NavItemProps {
 const NavItem: React.FC<NavItemProps> = ({
   name,
   icon,
-  activeTab,
-  setActiveTab,
   href,
   loading,
   onNavigate,
@@ -68,7 +66,7 @@ const Navbar: React.FC = () => {
 
   const handleNavigate = (name: string, href: string) => {
     setLoading(true);
-    dispatch(navigate(name as any));
+    dispatch(navigate(name as Pages));
     dispatch(finishNavigation());
 
     if (width < 1020) {

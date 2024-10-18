@@ -6,11 +6,9 @@ import Service from "./Service";
 import { SiNextdotjs, SiNestjs } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
 import { BsDatabase } from "react-icons/bs";
-import { useAppDispatch, useAppSelector } from "@/lib/hooks";
+import { useAppSelector } from "@/lib/hooks";
 
 const About = () => {
-  const useSelector = useAppSelector;
-
   const personalInfo = [
     { label: "Age", value: "26" },
     { label: "Residence", value: "Dubai, UAE" },
@@ -46,13 +44,13 @@ const About = () => {
       <Title text="About Me" />
       <div className="py-5 px-10">
         <p className="font-bold text-disabled text-md">
-          Hello! I'm Majd Shaheen.
+          Hello! I&apos;m Majd Shaheen.
         </p>
         <p className="text-disabled text-md">
-          I’m a full-stack mobile and web developer from Syria. I specialize in
-          creating scalable and maintainable software solutions for businesses
-          of all sizes. Let's connect to discuss how I can help bring your next
-          big idea to life!
+          I&apos;m a full-stack mobile and web developer from Syria. I
+          specialize in creating scalable and maintainable software solutions
+          for businesses of all sizes. Let&apos;s connect to discuss how I can
+          help bring your next big idea to life!
         </p>
 
         <div className="my-4">

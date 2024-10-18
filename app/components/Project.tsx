@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import { LiaAnkhSolid, LiaLinkSolid } from "react-icons/lia";
+import { LiaLinkSolid } from "react-icons/lia";
 import { project } from "../types";
 
 interface Proptypes {

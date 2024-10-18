@@ -7,6 +7,7 @@ const Mouse = () => {
   const ref = useRef<HTMLDivElement>(null);
 
   const handleMouseMove = (event: MouseEvent) => {
+    console.log(mousePosition);
     setMousePosition({ x: event.clientX, y: event.clientY });
     if (ref && ref.current) {
       ref.current.style.transform = `translate(${event.clientX - 15}px, ${

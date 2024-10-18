@@ -1,11 +1,11 @@
 "use client";
 
 import React from "react";
-import { HiArrowNarrowRight, HiCalendar } from "react-icons/hi";
+
 import Timeline from "./Timeline";
 import Title from "./Title";
 import { MdWork } from "react-icons/md";
-import { SiEducative } from "react-icons/si";
+
 import { FaGraduationCap } from "react-icons/fa6";
 import Skills from "./Skills";
 

@@ -4,7 +4,6 @@ import Skill from "./Skill";
 import IconTitle from "./IconTitle";
 import { BiCode } from "react-icons/bi";
 import { DiHtml5 } from "react-icons/di";
-import { FaLanguage } from "react-icons/fa6";
 
 const skillsFrontend = [
   { id: 1, name: "React/Next", percentage: 95 },

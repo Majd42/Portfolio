@@ -1,4 +1,4 @@
-import React, { ChangeEvent, FormEvent, useState } from "react";
+import React, { useState } from "react";
 import Title from "./Title";
 
 const contactInfo = [
@@ -8,21 +8,21 @@ const contactInfo = [
 ];
 
 const Contact = () => {
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    message: "",
-  });
+  // const [formData, setFormData] = useState({
+  //   name: "",
+  //   email: "",
+  //   message: "",
+  // });
 
-  const handleChange = (
-    e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
-  ) => {
-    const { name, value } = e.target;
-    setFormData((prevData) => ({
-      ...prevData,
-      [name]: value,
-    }));
-  };
+  // const handleChange = (
+  //   e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+  // ) => {
+  //   const { name, value } = e.target;
+  //   setFormData((prevData) => ({
+  //     ...prevData,
+  //     [name]: value,
+  //   }));
+  // };
 
   // const handleSubmit = (e: FormEvent) => {
   //   e.preventDefault();
@@ -38,10 +38,10 @@ const Contact = () => {
 
       <div className="p-4">
         <p className="text-sm text-disabled">
-          I’d love to hear from you! If you have new ideas or projects you’d
-          like to discuss, feel free to reach out. Whether you have a question,
-          need advice, or just want to chat, I'm here to help. Let's bring your
-          vision to life together!
+          I&apos;d love to hear from you! If you have new ideas or projects
+          you&apos;d like to discuss, feel free to reach out. Whether you have a
+          question, need advice, or just want to chat, I'm here to help. Let's
+          bring your vision to life together!
         </p>
 
         <div className="flex flex-col gap-3 my-10">
