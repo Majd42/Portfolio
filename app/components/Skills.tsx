@@ -28,10 +28,10 @@ const Skills = () => {
         <div className="flex flex-col gap-5 md:gap-0 md:flex-row  w-full ">
           <div className=" flex flex-col gap-4 md:w-[50%] relative ">
             <div className="absolute w-full h-[0.5px] bg-gradient-to-r from-disabled to-transparent top-[100%] left-0  md:w-[0.5px]  md:h-full md:bg-gradient-to-t md:from-disabled md:to-transparent md:top-0 md:left-[100%] opacity-40" />
-            <div className="md:ml-2 ">
+            <div className="ml-2 ">
               <IconTitle underline Icon={DiHtml5} title="Fron-End" />
             </div>
-            <div className=" grid grid-cols-2 gap-y-7 p-0 justify-center items-center w-[100%] md:grid-cols-2 ">
+            <div className=" grid grid-cols-2 gap-y-7 py-2 justify-center items-center w-[100%] md:grid-cols-2 ">
               {skillsFrontend.map((skill) => (
                 <React.Fragment key={skill.id}>
                   <Skill circle skill={skill} />

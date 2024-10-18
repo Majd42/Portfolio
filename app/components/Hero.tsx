@@ -39,8 +39,8 @@ const Hero = () => {
             <Image
               className="bg-primary mt-[-90px] w-[130px] h-[130px] rounded-full border-[3px] border-background z-10"
               src="/images/profi.png"
-              width={500}
-              height={500}
+              width={1000}
+              height={1000}
               alt="Nature"
             />
           </div>

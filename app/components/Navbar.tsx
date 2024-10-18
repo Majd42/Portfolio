@@ -71,11 +71,21 @@ const Navbar: React.FC = () => {
 
     if (width < 1020) {
       router.push(href);
+      setTimeout(() => {
+        // const element = document.querySelector(href.slice(2));
+        // if (element) {
+        //   window.scrollTo({
+        //     top: element.getBoundingClientRect().top + window.scrollY - 226,
+        //     behavior: "smooth",
+        //   });
+        // }
+        setLoading(false);
+      }, 1500);
+    } else {
+      setTimeout(() => {
+        setLoading(false);
+      }, 1500);
     }
-
-    setTimeout(() => {
-      setLoading(false);
-    }, 1500);
   };
 
   return (

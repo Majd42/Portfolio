@@ -15,7 +15,7 @@ const IconTitle = ({ Icon, title, col, underline }: PropTypes) => {
       }`}
     >
       {underline && (
-        <div className="h-[0.5px] w-full bg-gradient-to-r from-disabled to-transparent  absolute -bottom-2 left-0 opacity-40" />
+        <div className="h-[0.5px] w-full bg-gradient-to-r from-disabled to-transparent mt-2 absolute top-[100%] left-0 opacity-40" />
       )}
       <div className="w-14 h-14 bg-background border border-primary rounded-full flex justify-center items-center ">
         <Icon className={"text-primary"} size={30} />
