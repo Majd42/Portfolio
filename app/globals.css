@@ -8,13 +8,23 @@
 * {
 
   font-family: "Lekton";
+  scroll-behavior: smooth;
+
+}
+
+a, button {
+      transition: all 0.2s ease-in-out;
 }
 
 body {
   background-color: #161616;
   color: white;
+
 }
 
+p {
+  line-height: 27px;
+}
 
 .lekton-regular {
   font-family: "Lekton", monospace;
@@ -33,3 +43,31 @@ body {
   font-weight: 400;
   font-style: italic;
 }
+
+.fade-slide-enter {
+  opacity: 0;
+  transform: translateY(100%);
+ 
+}
+
+.fade-slide-enter-active {
+  opacity: 1;
+  transform: translateY(50%);
+
+  transition: opacity 500ms ease, transform 1500ms ease;
+}
+
+.fade-slide-exit {
+  opacity: 1;
+  transform: translateY(-50%);
+
+}
+
+.fade-slide-exit-active {
+  opacity: 0;
+  transform: translateY(-100%);
+
+  transition: opacity 500ms ease, transform 1500ms ease;
+}
+
+
