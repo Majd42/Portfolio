@@ -12,7 +12,7 @@ const works = [
   },
   {
     id: 2,
-    image: "/images/lifesmileweb.jpg",
+    image: "/images/Lifesmileweb.jpg",
     title: "Life smile",
     tech: "Next.js",
     link: "https://lifesmile.ae",
@@ -40,7 +40,7 @@ const works = [
   },
   {
     id: 3,
-    image: "/images/lifesmileapp.jpg",
+    image: "/images/Lifesmileapp.jpg",
     title: "Life smile App",
     tech: "React Native",
     link: "https://play.google.com/store/apps/details?id=com.lifesmile.lifesmileapp",
