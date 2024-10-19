@@ -22,7 +22,7 @@ const Hero = () => {
     }
   };
   return (
-    <div className=" md:mt-0 relative bg-background rounded-md h-[780px] lg:h-[90vh] w-full lg:scale-[102%] lg:w-[75%]">
+    <div className=" md:mt-0 relative bg-background rounded-md h-[780px] lg:h-[90vh] lg:max-h-[650px] w-full lg:scale-[102%] lg:w-[75%]">
       <div className="w-full h-full absolute bg-primary -top-3 right-3 -z-10 opacity-20 rounded-md" />
       <div className="flex h-full flex-col relative bg-background">
         <div className="relative h-[55%] ">
