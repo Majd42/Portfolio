@@ -15,6 +15,7 @@ const TabsContainer = () => {
   const width = useWindowWidth();
 
   if (width > 1020) {
+    console.log('web')
     return (
       <div className="w-full">
         <TransitionGroup>
@@ -23,7 +24,7 @@ const TabsContainer = () => {
             timeout={1500}
             classNames="fade-slide"
           >
-            <div className="w-full lg:overflow-scroll lg:h-[650px] lg:ml-2 pb-5 flex flex-col gap-5">
+            <div className="w-full lg:overflow-y-scroll lg:h-[90vh] lg:ml-2 py-5 flex flex-col gap-5 ">
               {currentPage === "About" && <About />}
               {currentPage === "Resume" && <Resume />}
               {currentPage === "Works" && <Works />}

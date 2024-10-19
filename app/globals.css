@@ -76,3 +76,16 @@ section {
   scroll-margin-top: 156px;
 
 }
+
+
+::-webkit-scrollbar {
+  
+  width: 10px;
+  background-color: #222222;;
+}
+
+
+::-webkit-scrollbar-thumb {
+  background-color: #161616;
+  border-radius: 10px;
+}
