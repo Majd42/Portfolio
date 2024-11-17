@@ -70,7 +70,7 @@ const Hero = () => {
 
           <div className="flex w-full relative border-t-[0.1px] border-disabled border-opacity-40">
             <Link
-              href={"/MajdCV.pdf"}
+              href={"/Majd-Shaheen-Resume.pdf"}
               download
               className="text-center w-[50%] p-3 border-r-[0.5px] border-disabled border-opacity-40 font-bold flex justify-center items-center gap-3 "
             >
