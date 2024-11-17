@@ -36,7 +36,7 @@ const education = [
   {
     id: 1,
     title: "Tishreen University",
-    body: "Gained a bachelor's degree in Informatices Engineering/Compouter Science",
+    body: "Gained a bachelor's degree in Informatices Engineering/Computer Science",
     place: "Latakia",
     period: "2018 - 2023",
   },
